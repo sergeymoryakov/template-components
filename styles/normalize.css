@@ -1,0 +1,121 @@
+/* 
+normalize.css file was crafted with ChatGPT's assistance 2024-01-20
+public license
+*/
+
+/* HTML5 Element Display Reset: Set display values for HTML5 elements that are not uniformly styled in all browsers. */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+/* Body Margin: Reset the margin on the body element */
+body {
+    margin: 0;
+}
+
+/* Font Inheritance: Ensure that fonts are inherited correctly in all elements */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+/* Box-Sizing: Apply border-box model to all elements */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Links: Normalize text decoration and color for links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Lists: Remove padding and list-style from ul and ol */
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+/* Images and Media: Ensure that images and other media don't exceed their containers */
+img,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Forms: Normalize form elements for consistency */
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+button,
+input {
+    overflow: visible;
+}
+
+/* Tables: Normalize table border-spacing and border-collapse */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Viewport Relative Units: Ensure HTML and Body elements use viewport relative units for consistent scaling */
+html {
+    font-size: 100%; /* This can be set to a viewport relative unit if needed */
+}
+
+/* Accessibility: Ensure that focusable elements are visually distinguishable when focused */
+:focus {
+    outline: 1px dotted;
+}
+
+/* Blockquotes and Quotes: Reset quotes for blockquote and q */
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
